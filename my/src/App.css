@@ -1,0 +1,139 @@
+
+.App{
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 100vw;
+
+  height: 100vh;
+
+}
+
+.AppHeader{
+
+  height: 50px;
+
+
+
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 4px 20px 4px 12px;
+
+  border-bottom: 15px solid;
+
+  color: rgb(45, 89, 134)
+
+  ;
+
+}
+
+
+
+
+
+.AppFooter{
+
+height: 50px;
+
+display: flex;
+
+justify-content: space-evenly;
+
+align-items: center;
+
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+
+
+
+}
+
+.SideMenuAndPageContent{
+
+  color: rgb(45, 89, 134);
+
+  /* border-bottom: 9px solid; */
+
+  border-radius: 3px;
+
+
+
+
+  display: flex;
+
+  flex: 1;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  border-right: 9px solid;
+
+  background-color: rgba(0, 0, 0, 0.05) ;
+
+}
+
+.SideMenu{
+
+  height: 100%;
+
+  border-right: 9px solid;
+
+  border-left: 9px solid;
+
+
+
+
+  color: rgb(45, 89, 134)
+
+}
+
+.SideMenuVertical{
+
+
+
+  height: 100%;
+
+}
+
+
+
+
+.ant-menu-item-selected {
+
+  color: rgb(45, 89, 134);
+
+}
+
+
+
+
+.PageContent{
+
+  padding:16px 0 0 16px;
+
+}
+.scatter-chart{
+  width: 590px;
+  height: 350px;
+}
+
+.scatter-chart canvas{
+  border-radius: 8px;
+  height: 350px;
+}
+
+/* .blue{
+
+  color: rgb(51, 102, 153)
+
+  ;
+
+} */
